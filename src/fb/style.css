@@ -1,0 +1,37 @@
+body{
+    width: 85%;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#icon {
+    background: #0b4899;
+    width: 90px;
+    height: 115px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    border: 25px solid #0b4899;
+    display: inline-block;
+}
+#icon::before {
+    background: #0b4899;
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    right: -37px;
+    width: 35px;
+    height: 90px;
+    border: 22px solid #fff;
+    border-radius: 29px;
+}
+#icon::after{
+    background: #fff;
+    content: '';
+    position: absolute;
+    top: 55px;
+    right: 5px;
+    width: 55px;
+    height: 20px;
+}
