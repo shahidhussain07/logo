@@ -7,8 +7,8 @@ body{
 }
 #icon {
     background: #0b4899;
-    width: 90px;
-    height: 115px;
+    width: 70px;
+    height: 120px;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
@@ -27,7 +27,7 @@ body{
     border-radius: 29px;
 }
 #icon::after{
-    background: #fff;
+    background: rgb(255, 247, 247);
     content: '';
     position: absolute;
     top: 55px;
