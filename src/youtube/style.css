@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#icon {
+    position: relative;
+    width: 350px;
+    height: 200px;
+    background: red;
+    border-radius: 50px;
+}
+
+#triangle{
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 30%;
+    left: 45%;
+    border-top: 40px solid transparent;
+    border-left: 60px solid white;
+    border-bottom: 40px solid transparent;
+}
